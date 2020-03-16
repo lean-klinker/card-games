@@ -24,4 +24,4 @@ jobs:
     
     - name: Build Mobile App
       run: flutter build
-      working-drectory: './mobile-app'
+      working-directory: './mobile-app'
