@@ -1,6 +1,4 @@
 name: Continuous Integration
-env:
-  FLUTTER_VERSION: '1.12.13+hotfix.8'
 on:
   push:
     branches:
@@ -16,4 +14,4 @@ jobs:
         java-version: '12.x'
     - uses: subosito/flutter-action@v1
       with:
-        flutter-version: $FLUTTER_VERSION
+        flutter-version: '1.12.13+hotfix.8'
